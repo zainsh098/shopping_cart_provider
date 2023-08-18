@@ -33,10 +33,22 @@ Cart.fromMap(Map<dynamic,dynamic> res)
 
 
         return {
-          'id' : id.
+          'id' : id,
+          'productId' :productId,
+          'productName' :productName,
+          'initialPrice': initialPrice,
+          'productPrice':productPrice,
+          'quanity':quanity,
+          'unitTag':unitTag,
+          'image':image
 
 
-        }
+
+
+
+
+
+        };
 
 
 
